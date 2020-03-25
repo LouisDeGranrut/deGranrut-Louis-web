@@ -10,6 +10,12 @@ function max(a,b){
 
 for (let i = 0; i < 100; i++) {
   console.log(i)
+  if(i% 5 == 0){
+    console.log("yooo");
+  }
+  if(i == 73){
+    console.log("Biinngooo");
+  }
 }
 
 console.log("Min entre 224 et 42 : " + min(224,42));
