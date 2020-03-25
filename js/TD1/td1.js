@@ -8,9 +8,9 @@ function max(a,b){
     return (a>b) ? a : b;
 }
 
-function power(n, x){
+function power(x, n){
     for (let i = 0; i < n; i++) {
-      a = a*n;
+      x* power(x,n-1)
     }
     return a;
 }
