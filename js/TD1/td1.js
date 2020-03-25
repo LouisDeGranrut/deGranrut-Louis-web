@@ -1,14 +1,9 @@
 'use strict'
 
 function min(a,b) {
-  if(a<b){
-    return a;
-  }
-  if(a>b){
-    return b;
-  }
+  return (a<b) ? a : b;
 }
 
-let max = (a,b) => {
-    return a;
+let max(a,b){
+    return (a>b) ? a : b;
 }
